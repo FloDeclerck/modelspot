@@ -7,6 +7,9 @@ RUN mkdir -p /app
 # Set the working directory to /usr/src/app
 WORKDIR /app
 
+# Install Nodemon
+RUN npm install
+
 # Make port 3000 available to the world outside this container
 EXPOSE 3000
 

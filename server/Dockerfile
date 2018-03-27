@@ -10,6 +10,8 @@ WORKDIR /app
 # Install Nodemon
 RUN npm install -g nodemon
 
+RUN npm install
+
 # Make port 3000 available to the world outside this container
 EXPOSE 3000
 

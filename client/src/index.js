@@ -8,7 +8,7 @@ import AddTodo from './components/AddTodo';
 import ListTodo from './components/ListTodo';
 import UpdateTodo from './components/UpdateTodo';
 
-import './index.css';
+import './styles/index.css';
 
 ReactDOM.render(
   <div className="container">
